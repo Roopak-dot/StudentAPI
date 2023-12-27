@@ -28,7 +28,7 @@ Build and Run Instructions:
    cd your-project
 2. Build the Project
    bash
-# For Maven projects
+For Maven projects
 mvn clean install
 3. Configure Database:
    Before running the StudentapiApplication for first time. Create a database with the name school we can change 
@@ -38,7 +38,7 @@ mvn clean install
    operation on student table.
 4. Run the Application
    bash
-# For Maven projects
+For Maven projects
 mvn spring-boot:run
    Also, StudentapiApplication can be run with direct run button in Intellij Idea.
 
@@ -69,7 +69,7 @@ DELETE /students/{id}
 Running Unit Tests:
 To run the unit tests and generate a code coverage report:
 bash
-# For Maven projects
+For Maven projects
 mvn test jacoco:report
 The code coverage report will be available in the target/site/jacoco directory.
 
