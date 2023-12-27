@@ -31,17 +31,20 @@ Build and Run Instructions:
 
 For Maven projects
 mvn clean install
+
 3. Configure Database:
    Before running the StudentapiApplication for first time. Create a database with the name school we can change 
    database name but we have to change this name also in applicaion.properties in resources.
    For this we will use SQL query: CREATE DATABASE school;
    This StudentapiApplication will automatically create the table with the name student. Now we can perform CRUD 
    operation on student table.
+
 4. Run the Application
    bash
 
 For Maven projects
 mvn spring-boot:run
+   
    Also, StudentapiApplication can be run with direct run button in Intellij Idea.
 
 The application will be accessible on postman at http://localhost:8080/students. Adjust the port if you have configured 
@@ -74,6 +77,7 @@ bash
 
 For Maven projects
 mvn test jacoco:report
+
 The code coverage report will be available in the target/site/jacoco directory.
 
 Customizing Configuration:
