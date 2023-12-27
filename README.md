@@ -23,10 +23,15 @@ Prerequisites:
    
 Build and Run Instructions:
 1. Clone the Repository
+
    bash
+
    git clone https://github.com/Roopak-dot/studentapi.git
+
    cd your-project
-2. Build the Project
+
+3. Build the Project
+
    bash
 
 For Maven projects
@@ -40,6 +45,7 @@ mvn clean install
    operation on student table.
 
 4. Run the Application
+
    bash
 
 For Maven projects
@@ -73,6 +79,7 @@ DELETE /students/{id}
 
 Running Unit Tests:
 To run the unit tests and generate a code coverage report:
+
 bash
 
 For Maven projects
