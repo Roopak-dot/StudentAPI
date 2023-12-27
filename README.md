@@ -28,6 +28,7 @@ Build and Run Instructions:
    cd your-project
 2. Build the Project
    bash
+
 For Maven projects
 mvn clean install
 3. Configure Database:
@@ -38,6 +39,7 @@ mvn clean install
    operation on student table.
 4. Run the Application
    bash
+
 For Maven projects
 mvn spring-boot:run
    Also, StudentapiApplication can be run with direct run button in Intellij Idea.
@@ -69,6 +71,7 @@ DELETE /students/{id}
 Running Unit Tests:
 To run the unit tests and generate a code coverage report:
 bash
+
 For Maven projects
 mvn test jacoco:report
 The code coverage report will be available in the target/site/jacoco directory.
@@ -76,11 +79,17 @@ The code coverage report will be available in the target/site/jacoco directory.
 Customizing Configuration:
 Information on how to customize application configuration, including relevant configuration files.
 Paste these properties in application.properties in resources.
+
 spring.datasource.url=jdbc:mysql://localhost:3306/school
+
 spring.datasource.username=username
+
 spring.datasource.password=password
+
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jmx.enabled=true
 Note: Change username and password according to you.
 
