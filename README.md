@@ -35,6 +35,7 @@ Build and Run Instructions:
    bash
 
 For Maven projects
+
 mvn clean install
 
 3. Configure Database:
@@ -49,6 +50,7 @@ mvn clean install
    bash
 
 For Maven projects
+
 mvn spring-boot:run
    
    Also, StudentapiApplication can be run with direct run button in Intellij Idea.
@@ -83,6 +85,7 @@ To run the unit tests and generate a code coverage report:
 bash
 
 For Maven projects
+
 mvn test jacoco:report
 
 The code coverage report will be available in the target/site/jacoco directory.
