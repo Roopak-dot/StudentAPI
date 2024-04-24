@@ -1,6 +1,6 @@
 Student API
 
-This project is a RESTful API for managing student information, implemented using the in a Spring Boot 
+This project is a RESTful API for managing student information, implemented using a Spring Boot 
 application. The API supports CRUD (Create, Read, Update, Delete) operations on student entities.
 
 Brief description or introduction of the project.
